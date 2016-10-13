@@ -45,10 +45,23 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\UIController.cs" />
-     <Compile Include="Assets\Scripts\VideoClip.cs" />
-     <Compile Include="Assets\Scripts\VideoController.cs" />
-     <Compile Include="Assets\Scripts\VideoInputLogic.cs" />
+     <Compile Include="Assets\Scripts\DebugScripts\CurrentIncidentDisplay.cs" />
+     <Compile Include="Assets\Scripts\DebugScripts\GameStateDisplay.cs" />
+     <Compile Include="Assets\Scripts\Developer Logic Scripts\Incident.cs" />
+     <Compile Include="Assets\Scripts\Developer Logic Scripts\IncidentInputLogic.cs" />
+     <Compile Include="Assets\Scripts\Developer Logic Scripts\OutroVideoLogic.cs" />
+     <Compile Include="Assets\Scripts\Developer Logic Scripts\Response.cs" />
+     <Compile Include="Assets\Scripts\Developer Logic Scripts\ResponseInputLogic.cs" />
+     <Compile Include="Assets\Scripts\Developer Logic Scripts\VideoInputLogic.cs" />
+     <Compile Include="Assets\Scripts\Entity Scripts\VideoClip.cs" />
+     <Compile Include="Assets\Scripts\ManagerController Scripts\GameManager.cs" />
+     <Compile Include="Assets\Scripts\ManagerController Scripts\GamePlayManager.cs" />
+     <Compile Include="Assets\Scripts\ManagerController Scripts\Scene Managers\GameplaySceneManager.cs" />
+     <Compile Include="Assets\Scripts\ManagerController Scripts\Scene Managers\IntroSceneManager.cs" />
+     <Compile Include="Assets\Scripts\ManagerController Scripts\Scene Managers\LoadSceneManager.cs" />
+     <Compile Include="Assets\Scripts\ManagerController Scripts\Scene Managers\OutroSceneManager.cs" />
+     <Compile Include="Assets\Scripts\ManagerController Scripts\UIController.cs" />
+     <Compile Include="Assets\Scripts\ManagerController Scripts\VideoController.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Personal/Programs/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
